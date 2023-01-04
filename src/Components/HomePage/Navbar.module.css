@@ -58,6 +58,7 @@
 }
 .selectBox{
   outline: none;
+  background-color:  #ffffff;
 }
 @media (min-width: 360px) and (max-width: 768px) {
   .hiddenOnMobile {

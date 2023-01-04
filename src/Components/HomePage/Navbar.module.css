@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+.containe {
+  display: flex;
+  flex-direction: column;
+}
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-left: 74px;
+  padding-right: 74px;
+  margin-top: 6px;
+  height: 73.03px;
+  background: #ffffff;
+}
+.image {
+  width: 160px;
+  height: 63px;
+  cursor: pointer;
+}
+.navLink {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 28px;
+}
+.title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.5%;
+  text-align: center;
+  color: rgba(128, 0, 128, 0.25);
+  cursor: pointer;
+}
+.user {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 6px;
+  align-items: center;
+}
+.header {
+  font-weight: 400;
+  padding-top: 30px;
+  margin-left: 187px;
+  margin-right: 35px;
+  font-size: 14px;
+  line-height: 21px;
+  height: 76px;
+  color: #000000;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+.selectBox{
+  outline: none;
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .hiddenOnMobile {
+    display: none !important;
+  }
+  .navHeader {
+    padding-left: 3px;
+    padding-right: 35px;
+  }
+  .header {
+    margin-left: 35px;
+  }
+  .navLink {
+    column-gap: 0px;
+  }
+  .user {
+    background: #800080;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 12px 20px 12px 16px;
+  }
+  .selectBox{
+    background-color: #800080;
+    outline: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    margin-left: 35px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 359px) {
+  .hiddenOnMobile {
+    display: none !important;
+  }
+  .navHeader {
+    padding-right: 4px;
+    padding-left: 3px;
+  }
+  .header {
+    margin-left: 20px;
+  }
+  .image {
+    width: 160px;
+  }
+  .navLink {
+    column-gap: 0px;
+  }
+  .user {
+    background: #800080;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 12px 20px 12px 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .hiddenOnDesktop {
+    display: none !important;
+  }
+}

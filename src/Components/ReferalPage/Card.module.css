@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-style: normal;
+}
+.container {
+  padding-left: 187px;
+  padding-right: 200px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 358px;
+  margin: auto;
+  height: 228px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+}
+.firstLineName {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.firstLineDate {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.secondLineName {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.courseContainer {
+  display: flex;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  overflow: scroll;
+}
+.courses {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.thirdLineTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.thirdLineAmount {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .container {
+    padding-left: 34px;
+    padding-right: 37px;
+  }
+}
+
+
